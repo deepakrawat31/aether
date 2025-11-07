@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@theme {
+  --font-testimonia: "Testimonia", script;
+  --font-naru: "Naru", monospace;
+
+  --color-surface: #EEEEEE;
+  --color-surface-container: #FBF9F1;
+  --color-surface-inverse: #191919;
+  --color-surface-variant: #191919;
+  --color-primary: #12372A;
+  --color-on-surface: #191919;
+  --color-on-surface-container: #191919;
+  --color-on-surface-inverse: #EEEEEE;
+  --color-on-primary: #A5DD9B;
+}
+
+@font-face {
+  font-family: Testimonia;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/fonts/Testimonia.woff2) format(woff2);
+}
+
+@font-face {
+  font-family: Naru;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/fonts/Naru.woff2) format(woff2);
+}
